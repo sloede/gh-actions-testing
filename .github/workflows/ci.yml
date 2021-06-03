@@ -42,3 +42,4 @@ jobs:
       - name: Run tests
         run: |
           test/runtests.sh
+        shell: bash
