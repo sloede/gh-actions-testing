@@ -17,7 +17,6 @@ else
 fi
 
 
-echo "Testing bad..."
 src/bad
 if [[ $? != 0 ]]; then
   echo "PASS: non-zero exit code for 'bad'"
